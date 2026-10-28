@@ -1,0 +1,8 @@
+{{- $src := .Destination -}}
+{{- $image := resources.Get (replace $src "/content/images/" "images/") -}}
+{{- if $image -}}
+{{- $display := $image -}}{{- if gt $image.Width 1440 -}}{{- $display = $image.Resize "1440x webp q85" -}}{{- end -}}
+<img src="{{ $display.RelPermalink }}" width="{{ $display.Width }}" height="{{ $display.Height }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" decoding="async">
+{{- else -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" decoding="async">
+{{- end -}}

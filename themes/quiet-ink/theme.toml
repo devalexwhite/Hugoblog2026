@@ -1,0 +1,4 @@
+name = 'Quiet Ink'
+license = 'MIT'
+description = 'A calm, Chinese-inspired personal journal in paper, jade, and ink.'
+min_version = '0.146.0'

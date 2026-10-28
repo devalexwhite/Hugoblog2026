@@ -1,0 +1,243 @@
+{
+  "source": "https://thatalexguy.dev",
+  "migratedAt": "2026-10-28T16:08:59.136Z",
+  "pages": [
+    {
+      "slug": "about",
+      "title": "About Alex",
+      "section": "",
+      "images": 1,
+      "source": "https://thatalexguy.dev/about"
+    },
+    {
+      "slug": "ascension-book-review",
+      "title": "Ascension - Book Review",
+      "section": "books",
+      "images": 1,
+      "source": "https://thatalexguy.dev/ascension-book-review"
+    },
+    {
+      "slug": "tearaway-is-an-amazing-cozy-game",
+      "title": "Tearaway is an amazing cozy game!",
+      "section": "games",
+      "images": 2,
+      "source": "https://thatalexguy.dev/tearaway-is-an-amazing-cozy-game"
+    },
+    {
+      "slug": "secret-project",
+      "title": "Secret Project",
+      "section": "posts",
+      "images": 2,
+      "source": "https://thatalexguy.dev/secret-project"
+    },
+    {
+      "slug": "blackberry-dev-alpha-c",
+      "title": "BlackBerry Dev Alpha C",
+      "section": "posts",
+      "images": 2,
+      "source": "https://thatalexguy.dev/blackberry-dev-alpha-c"
+    },
+    {
+      "slug": "go-update-your-php-version-now",
+      "title": "Go update your PHP version now!",
+      "section": "posts",
+      "images": 0,
+      "source": "https://thatalexguy.dev/go-update-your-php-version-now"
+    },
+    {
+      "slug": "unleashing-agents-inside-the-workshop",
+      "title": "Unleashing agents inside the workshop",
+      "section": "posts",
+      "images": 3,
+      "source": "https://thatalexguy.dev/unleashing-agents-inside-the-workshop"
+    },
+    {
+      "slug": "building-a-tool-for-job-searchers",
+      "title": "Building a Tool for Job Searchers",
+      "section": "posts",
+      "images": 4,
+      "source": "https://thatalexguy.dev/building-a-tool-for-job-searchers"
+    },
+    {
+      "slug": "trying-myna-on-ubuntu-2610",
+      "title": "Trying Myna on Ubuntu 26.10",
+      "section": "posts",
+      "images": 1,
+      "source": "https://thatalexguy.dev/trying-myna-on-ubuntu-2610"
+    },
+    {
+      "slug": "some-of-the-most-powerful-tools-a-dad-can-have",
+      "title": "Some of the most powerful tools a dad can have…",
+      "section": "posts",
+      "images": 0,
+      "source": "https://thatalexguy.dev/some-of-the-most-powerful-tools-a-dad-can-have"
+    },
+    {
+      "slug": "self-hosting",
+      "title": "Self-Hosting",
+      "section": "posts",
+      "images": 2,
+      "source": "https://thatalexguy.dev/self-hosting"
+    },
+    {
+      "slug": "why-so-serious",
+      "title": "Why So Serious?",
+      "section": "posts",
+      "images": 1,
+      "source": "https://thatalexguy.dev/why-so-serious"
+    },
+    {
+      "slug": "breakfast",
+      "title": "Breakfast",
+      "section": "posts",
+      "images": 1,
+      "source": "https://thatalexguy.dev/breakfast"
+    },
+    {
+      "slug": "ive-got-a-switching-problem",
+      "title": "I've got a switching problem",
+      "section": "posts",
+      "images": 0,
+      "source": "https://thatalexguy.dev/ive-got-a-switching-problem"
+    },
+    {
+      "slug": "metric-century-for-labor-day",
+      "title": "Metric century for Labor Day",
+      "section": "cycling",
+      "images": 2,
+      "source": "https://thatalexguy.dev/metric-century-for-labor-day"
+    },
+    {
+      "slug": "from-omarchy-to-popos",
+      "title": "From Omarchy to Pop_OS!",
+      "section": "posts",
+      "images": 1,
+      "source": "https://thatalexguy.dev/from-omarchy-to-popos"
+    },
+    {
+      "slug": "updates-to-tinyfeeds",
+      "title": "Updates to TinyFeeds",
+      "section": "posts",
+      "images": 2,
+      "source": "https://thatalexguy.dev/updates-to-tinyfeeds"
+    },
+    {
+      "slug": "the-3ds-is-the-greatest-handheld-of-all-time",
+      "title": "The 3DS is the greatest handheld of all time",
+      "section": "games",
+      "images": 5,
+      "source": "https://thatalexguy.dev/the-3ds-is-the-greatest-handheld-of-all-time"
+    },
+    {
+      "slug": "chains-and-donuts",
+      "title": "Chains and donuts",
+      "section": "cycling",
+      "images": 2,
+      "source": "https://thatalexguy.dev/chains-and-donuts"
+    },
+    {
+      "slug": "giving-omarchy-a-shot",
+      "title": "Giving Omarchy a shot",
+      "section": "posts",
+      "images": 1,
+      "source": "https://thatalexguy.dev/giving-omarchy-a-shot"
+    },
+    {
+      "slug": "photos-from-the-streets-of-baotou",
+      "title": "Photos from the streets of Baotou 包头市",
+      "section": "posts",
+      "images": 6,
+      "source": "https://thatalexguy.dev/photos-from-the-streets-of-baotou"
+    },
+    {
+      "slug": "finding-happiness-in-development",
+      "title": "Finding happiness in development",
+      "section": "posts",
+      "images": 1,
+      "source": "https://thatalexguy.dev/finding-happiness-in-development"
+    },
+    {
+      "slug": "starting-to-consolidate-my-tech",
+      "title": "Starting to consolidate my tech",
+      "section": "posts",
+      "images": 0,
+      "source": "https://thatalexguy.dev/starting-to-consolidate-my-tech"
+    },
+    {
+      "slug": "photos-from-meiligeng-natural-ecological-scenic-area",
+      "title": "Photos from Meiligeng Natural Ecological Scenic Area",
+      "section": "posts",
+      "images": 8,
+      "source": "https://thatalexguy.dev/photos-from-meiligeng-natural-ecological-scenic-area"
+    },
+    {
+      "slug": "dealing-with-jet-lag",
+      "title": "Dealing with jet lag",
+      "section": "posts",
+      "images": 0,
+      "source": "https://thatalexguy.dev/dealing-with-jet-lag"
+    },
+    {
+      "slug": "my-new-bike",
+      "title": "My new bike",
+      "section": "cycling",
+      "images": 4,
+      "source": "https://thatalexguy.dev/my-new-bike"
+    }
+  ],
+  "assets": [
+    "https://thatalexguy.dev/content/images/about/IMG_1119.jpeg",
+    "https://thatalexguy.dev/content/images/ascension-book-review/IMG_0095.jpeg",
+    "https://thatalexguy.dev/content/images/tearaway-is-an-amazing-cozy-game/on-this-day-10-years-ago-tearaway-for-playstation-vita-v0-ye29w2xeqw1c1.jpeg.webp",
+    "https://thatalexguy.dev/content/images/tearaway-is-an-amazing-cozy-game/IMG_1573.jpeg",
+    "https://thatalexguy.dev/content/images/secret-project/IMG_1567.jpg",
+    "https://thatalexguy.dev/content/images/secret-project/IMG_1566.jpg",
+    "https://thatalexguy.dev/content/images/blackberry-dev-alpha-c/PXL_20261024_204504418.jpg",
+    "https://thatalexguy.dev/content/images/blackberry-dev-alpha-c/PXL_20261024_204502553.jpg",
+    "https://thatalexguy.dev/content/images/unleashing-agents-inside-the-workshop/workshops_snap.png",
+    "https://thatalexguy.dev/content/images/unleashing-agents-inside-the-workshop/workshop_running.png",
+    "https://thatalexguy.dev/content/images/unleashing-agents-inside-the-workshop/workshop_finished.png",
+    "https://thatalexguy.dev/content/images/building-a-tool-for-job-searchers/screenshot-home-page.png",
+    "https://thatalexguy.dev/content/images/building-a-tool-for-job-searchers/Screenshot-2026-10-19-at-12-07-00-Dashboard-Jobcaddy.png",
+    "https://thatalexguy.dev/content/images/building-a-tool-for-job-searchers/sublime.png",
+    "https://thatalexguy.dev/content/images/trying-myna-on-ubuntu-2610/Screenshot.png",
+    "https://thatalexguy.dev/content/images/self-hosting/PXL_20260920_015101191.jpg",
+    "https://thatalexguy.dev/content/images/self-hosting/immich_mobile.png",
+    "https://thatalexguy.dev/content/images/why-so-serious/cal_sleep.png",
+    "https://thatalexguy.dev/content/images/breakfast/69.jpg",
+    "https://thatalexguy.dev/content/images/metric-century-for-labor-day/IMG_0035.jpeg",
+    "https://thatalexguy.dev/content/images/metric-century-for-labor-day/IMG_0036.jpeg",
+    "https://thatalexguy.dev/content/images/from-omarchy-to-popos/Screenshot_2026-09-04_21-52-12.png",
+    "https://thatalexguy.dev/content/images/updates-to-tinyfeeds/TinyFeeds.png",
+    "https://thatalexguy.dev/content/images/updates-to-tinyfeeds/TinyFeeds2.png",
+    "https://thatalexguy.dev/content/images/the-3ds-is-the-greatest-handheld-of-all-time/DSC06870_web.jpg",
+    "https://thatalexguy.dev/content/images/the-3ds-is-the-greatest-handheld-of-all-time/DSC06866_web.jpg",
+    "https://thatalexguy.dev/content/images/the-3ds-is-the-greatest-handheld-of-all-time/DSC06873_web.jpg",
+    "https://thatalexguy.dev/content/images/the-3ds-is-the-greatest-handheld-of-all-time/DSC06875_web.jpg",
+    "https://thatalexguy.dev/content/images/the-3ds-is-the-greatest-handheld-of-all-time/IMG_1382.jpg",
+    "https://thatalexguy.dev/content/images/chains-and-donuts/IMG_1377.jpeg",
+    "https://thatalexguy.dev/content/images/chains-and-donuts/IMG_1380.jpeg",
+    "https://thatalexguy.dev/content/images/giving-omarchy-a-shot/screenshot-2026-08-25_13-30-54.png",
+    "https://thatalexguy.dev/content/images/photos-from-the-streets-of-baotou/IMG_0005.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-the-streets-of-baotou/IMG_0006.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-the-streets-of-baotou/IMG_0007.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-the-streets-of-baotou/IMG_0008.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-the-streets-of-baotou/IMG_0009.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-the-streets-of-baotou/IMG_0010.jpeg",
+    "https://thatalexguy.dev/content/images/finding-happiness-in-development/SCR-20260824-iiiq.png",
+    "https://thatalexguy.dev/content/images/photos-from-meiligeng-natural-ecological-scenic-area/IMG_0019.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-meiligeng-natural-ecological-scenic-area/IMG_0023.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-meiligeng-natural-ecological-scenic-area/IMG_0028.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-meiligeng-natural-ecological-scenic-area/IMG_0031.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-meiligeng-natural-ecological-scenic-area/IMG_0033.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-meiligeng-natural-ecological-scenic-area/IMG_1234.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-meiligeng-natural-ecological-scenic-area/IMG_1242.jpeg",
+    "https://thatalexguy.dev/content/images/photos-from-meiligeng-natural-ecological-scenic-area/IMG_1245.jpeg",
+    "https://thatalexguy.dev/content/images/my-new-bike/IMG_1355.jpeg",
+    "https://thatalexguy.dev/content/images/my-new-bike/IMG_1319.jpeg",
+    "https://thatalexguy.dev/content/images/my-new-bike/IMG_1165.jpeg",
+    "https://thatalexguy.dev/content/images/my-new-bike/IMG_1216.jpeg",
+    "https://thatalexguy.dev/content/images/fav.jpeg",
+    "https://thatalexguy.dev/content/images/meta.jpeg"
+  ]
+}

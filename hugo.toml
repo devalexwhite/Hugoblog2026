@@ -1,0 +1,34 @@
+baseURL = 'https://thatalexguy.dev/'
+locale = 'en-us'
+title = 'Alex White'
+theme = 'quiet-ink'
+enableRobotsTXT = true
+summaryLength = 32
+buildFuture = true
+[pagination]
+  pagerSize = 10
+[params]
+  description = 'Dad and cyclist in Ohio. Notes on life, technology, and the things that make us slow down.'
+  author = 'Alex White'
+  commentsURL = 'https://comments.thatalexguy.dev/public/embed.js'
+[taxonomies]
+  tag = 'tags'
+[permalinks.taxonomy]
+  tags = '/tag/'
+[permalinks.term]
+  tags = '/tag/:slug/'
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+[outputFormats.RSS]
+  baseName = 'feed'
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[module.mounts]]
+  source = 'assets'
+  target = 'assets'
+[[module.mounts]]
+  source = 'static/content/images'
+  target = 'assets/images'
+[markup.goldmark.extensions]
+  typographer = false

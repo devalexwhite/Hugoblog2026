@@ -1,0 +1,1 @@
+{{ define "main" }}<header class="page-heading"><p class="eyebrow">EXPLORE THE JOURNAL</p><h1>{{ .Title }}</h1></header><div class="tags">{{ range .Data.Terms.Alphabetical }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>{{ end }}</div>{{ end }}

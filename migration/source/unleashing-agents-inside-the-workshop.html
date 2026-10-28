@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Pure Blog">
+        <title>Unleashing agents inside the workshop - Alex White</title>
+            <meta name="description" content="Exploring Ubuntu Workshops for agentic development.">
+        <link rel="canonical" href="https://thatalexguy.dev/unleashing-agents-inside-the-workshop">
+                            <link rel="icon" href="https://thatalexguy.dev/content/images/fav.jpeg">
+        <link rel="apple-touch-icon" href="https://thatalexguy.dev/content/images/fav.jpeg">
+        <meta property="og:type" content="article">
+    <meta property="og:url" content="https://thatalexguy.dev/unleashing-agents-inside-the-workshop">
+    <meta property="og:site_name" content="Alex White">
+    <meta property="og:title" content="Unleashing agents inside the workshop - Alex White">
+            <meta property="og:description" content="Exploring Ubuntu Workshops for agentic development.">
+            <meta property="og:locale" content="en_US">
+            <meta property="og:image" content="https://thatalexguy.dev/content/images/unleashing-agents-inside-the-workshop/workshops_snap.png">
+                    <meta property="og:image:width" content="1360">
+            <meta property="og:image:height" content="712">
+                <link rel="alternate" type="application/rss+xml" title="Alex White RSS" href="https://thatalexguy.dev/feed">
+    <style>
+        body { background: #F8F7F3; }
+    </style>
+            <link rel="stylesheet" href="https://thatalexguy.dev/assets/css/style.css?v=1787577046">
+    <style>
+        :root {
+            --bg-light: #F8F7F3;
+            --text-light: #202421;
+            --accent-light: #165D7A;
+            --border-light: #B8BBB6;
+            --accent-bg-light: #EDF1F0;
+            --bg-dark: #181B1A;
+            --text-dark: #E8E7E2;
+            --accent-dark: #7CC4D8;
+            --border-dark: #484D4A;
+            --accent-bg-dark: #232826;
+            --font-stack: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            --mono-font-stack: "Iosevka", ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+        }
+        </style>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+<symbol id="icon-calendar" viewBox="0 0 32 32">
+    <path d="M10 12h4v4h-4zM16 12h4v4h-4zM22 12h4v4h-4zM4 24h4v4h-4zM10 24h4v4h-4zM16 24h4v4h-4zM10 18h4v4h-4zM16 18h4v4h-4zM22 18h4v4h-4zM4 18h4v4h-4zM26 0v2h-4v-2h-14v2h-4v-2h-4v32h30v-32h-4zM28 30h-26v-22h26v22z"></path>
+</symbol>
+<symbol id="icon-edit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14.364 13.634a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506l4.013-4.009a1 1 0 0 0-3.004-3.004z"/>
+    <path d="M14.487 7.858A1 1 0 0 1 14 7V2"/>
+    <path d="M20 19.645V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l2.516 2.516"/>
+    <path d="M8 18h1"/>
+</symbol>
+<symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+</symbol>
+<symbol id="icon-tag" viewBox="0 0 40 32">
+    <path d="M38.5 0h-12c-0.825 0-1.977 0.477-2.561 1.061l-14.879 14.879c-0.583 0.583-0.583 1.538 0 2.121l12.879 12.879c0.583 0.583 1.538 0.583 2.121 0l14.879-14.879c0.583-0.583 1.061-1.736 1.061-2.561v-12c0-0.825-0.675-1.5-1.5-1.5zM31 12c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"></path>
+    <path d="M4 17l17-17h-2.5c-0.825 0-1.977 0.477-2.561 1.061l-14.879 14.879c-0.583 0.583-0.583 1.538 0 2.121l12.879 12.879c0.583 0.583 1.538 0.583 2.121 0l0.939-0.939-13-13z"></path>
+</symbol>
+</svg>
+<header>
+    <h1><a href="/">Alex White</a></h1>
+        <p class="tagline">Dad and Cyclist in Ohio.</p>
+                <nav class="site-nav">
+            <ul>
+                                    <li><a href="/">Home</a></li>
+                                                                    <li><a href="/about">About</a></li>
+                                                                    <li><a href="/search">Search</a></li>
+                                                                                            <li><a href="https://thatalexguy.dev/feed">RSS</a></li>
+                            </ul>
+        </nav>
+    </header>
+    <main>
+                                            <article>
+                <h1>Unleashing agents inside the workshop</h1>
+                                    <p class="post-date">
+                                                    <svg class="icon" aria-hidden="true"><use href="#icon-calendar"></use></svg> <time datetime="2026-10-20T12:06:00-04:00">October 20, 2026</time>
+                                                                             &nbsp;|&nbsp; <svg class="icon" aria-hidden="true"><use href="#icon-clock"></use></svg> 3 min read                                            </p>
+                
+                <p>I recently learned of <a href="https://ubuntu.com/workshop" rel="noopener noreferrer">Ubuntu Workshops</a>. In short, Workshops allow you to create an isolated development environment to safely work with AI agents. You get a configured (via YAML) sandbox where you can safely run an agent without the need for permission checks and guardrails. Workshops allow you to expose or block certain parts of your system as needed (for example, you can expose your GPU for local models or block access to your webcam).</p>
+<h2>Building by example</h2>
+<p>As an example, let's build a simple Rust app that converts images from the HEIC format (bane of my existence) to JPEG. We'll use Iced to provide a simple GUI that supports drag and drop.</p>
+<h3>Defining our workshop</h3>
+<p>First, install the Workshops Snap from the Ubuntu App Store. I also had to install the LXD subsystem for virtualization :</p>
+<pre><code class="language-bash">sudo snap install --channel=6/stable lxd</code></pre>
+<p><img loading="lazy" src="/content/images/unleashing-agents-inside-the-workshop/workshops_snap.png" alt="Workshops in the App Center" /></p>
+<p>To setup the workshop, create an empty directory and run the following commands:</p>
+<pre><code class="language-bash">workshop init --sdks codex,rust dev
+workshop launch</code></pre>
+<p>This will give a workshop named "dev" with Codex and Rust ready to go. </p>
+<p>On first run, we'll need to login to Codex using the following:</p>
+<pre><code class="language-bash">workshop exec -- codex</code></pre>
+<p>Next, we want to define an "auto-mode" for Codex so we don't have to deal with permission check prompts. We'll do this by defining an "action" in the <code>.workshop/dev.yaml</code> file.</p>
+<pre><code class="language-yaml">name: dev
+base: ubuntu@24.04
+sdks:
+  - name: codex
+  - name: rust
+# Add the lines below
+actions:
+  codex-auto: |
+    codex exec --model $CODEX_MODEL --yolo "$@"
+  codex: |
+    codex --model $CODEX_MODEL --yolo "$@"</code></pre>
+<p>We've added two actions, <code>codex-auto</code> to define a non-interactive session, and <code>codex</code> for an interactive one. Both have the <code>--yolo</code> flag which bypasses permission checks. As an added benefit, actions make it easy to standardize how we pass instructions to agents. We could easily define a Claude action that accepts the same arguments as Codex.</p>
+<p>Now let's define our prompt, instructing the agent to build our Rust application. This could of course also be done interactively via the Codex TUI inside the workshop, or through a a <a href="https://www.cortex.io/post/what-is-an-ai-software-factory" rel="noopener noreferrer">AI software factory</a>. For now, we'll create a <code>prompts/rust-developer.md</code> file and add the following:</p>
+<pre><code class="language-md">You are building a Rust app in this repository.
+
+Goals:
+- Provide a small GUI app with a single screen.
+- Use Iced to develop GUI components.
+- The GUI screen features a button to browse files and select one or more ".HEIC" format image files.
+- When an image is selected, the application converts to JPEG and saves the output to the same directory as the original HEIC image.
+- The application shows a notification on successful conversions, and notifications on errors.
+- The application supports converting multiple images at once, converting each in a queue.
+- Add a short README.md with run instructions.
+
+Constraints:
+- Target Linux host systems with Wayland.
+- Keep the code simple and readable.
+- Implement the HEIC conversion within Rust, do not depend on any system utilities.
+- You do not have Wayland access, so do not run the application.</code></pre>
+<p>Finally, we'll setup Git for version controlling.</p>
+<pre><code class="language-bash">git init
+cat &gt;&gt; .gitignore &lt;&lt; EOF
+.workshop.lock
+.workshop/
+EOF</code></pre>
+<h3>Running our agent</h3>
+<p>Time for the fun part! We'll use the <code>codex-auto</code> command to build the application in the <code>src</code> folder without needing any input from the user.</p>
+<pre><code class="language-bash">workshop run --env CODEX_MODEL=gpt-6.1-sol -- \
+codex-auto "Follow the instructions in ./prompts/rust-developer.md"</code></pre>
+<p><img loading="lazy" src="/content/images/unleashing-agents-inside-the-workshop/workshop_running.png" alt="Codex agent running inside the workshop" /></p>
+<p>The agent will now run completely autonomously with no need to press "enter" on permission checks. Our host system remains protected as the agent is sandboxed away from our filesystem and devices. </p>
+<p>In fact, you'll notice in the prompt we specified that the agent should not try running the application. This is because we didn't provide access to a Wayland or X11 display server, so the agent cannot run a GUI application.</p>
+<h3>Reviewing the result</h3>
+<p>Here's what I got as a result:</p>
+<p><img loading="lazy" src="/content/images/unleashing-agents-inside-the-workshop/workshop_finished.png" alt="The HEIC converter application window" /></p>
+<p>The UI isn't great, but it works and successfully converted some photos from my iPhone!</p>
+<h2>Are workshops worth it?</h2>
+<p>After putting together this article and testing out workshops, I'd say it's definitely a tool worth using. Workshops add minimal overhead, provide a composable/reusable environment for development and safeguard your host system from agents going rogue. Between this and <a href="https://thatalexguy.dev/trying-myna-on-ubuntu-2610">Myna</a>, Canonical is doing a lot to support the new development workflows that are becoming common</p>                    <p class="tag-list"><svg class="icon" aria-hidden="true"><use href="#icon-tag"></use></svg> <a href="/tag/development">Development</a>, <a href="/tag/ai">AI</a></p>
+
+    <div id="comments" data-post-slug="unleashing-agents-inside-the-workshop"></div>
+    <script src="https://comments.thatalexguy.dev/public/embed.js" defer></script>
+
+<div class="post-nav">
+  <div>
+          <p>⬅ Previous post<br>
+      <a class="pagination-links" href="/building-a-tool-for-job-searchers">
+        Building a Tool for Job Searchers      </a></p>
+      </div>
+
+  <div class="post-nav-next">
+          <p>Next post ➡<br>
+      <a class="pagination-links" href="/go-update-your-php-version-now">
+        Go update your PHP version now!      </a></p>
+      </div>
+</div>
+            </article>
+                                </main>
+    <footer>
+    <p>&copy; 2026 Alex White</p>
+</footer>
+</body>
+</html>
