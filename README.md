@@ -19,6 +19,8 @@ node scripts/audit.cjs
 
 Deploy the contents of `public/` to any static host. The configured production URL is `https://thatalexguy.dev/`. The live site and DNS have not been changed.
 
+For Vercel, `vercel.json` runs `scripts/build-vercel.sh`, which downloads Hugo **0.168.0**, builds with `hugo.toml`, runs the migration audit, and publishes `public/`. This follows [Hugo's Vercel deployment approach](https://gohugo.io/host-and-deploy/deploy-to-vercel/). Vercel's legacy default Hugo does not recognize `hugo.toml`, so it can report a successful build while omitting the theme, HTML pages, and CSS and serving RSS at the homepage. Keep the pinned version in the script aligned with the version tested locally. Push these files to the connected repository to apply the fix on the next deployment.
+
 ## Writing
 
 ```sh
