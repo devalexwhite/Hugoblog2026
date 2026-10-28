@@ -7,12 +7,12 @@
   ],
   "description": "A mysterious mountain in the Pacific Ocean. A team of scientists. A thriller that kept me reading for three days.",
   "summary": "An enormous snow-covered mountain has appeared in the Pacific Ocean. A mysterious expedition, a snowy setting, and a sci-fi thriller I couldn’t put down.",
-  "cover": "/content/images/ascension-book-review/IMG_0095.jpeg",
+  "cover": "/content/images/ascension-book-review/IMG_0095.webp",
   "comments": true,
   "source": "https://thatalexguy.dev/ascension-book-review"
 }
 
-![IMG\_0095](/content/images/ascension-book-review/IMG_0095.jpeg)
+![IMG\_0095](/content/images/ascension-book-review/IMG_0095.webp)
 
 **Title:** Ascension
 

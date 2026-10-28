@@ -3,12 +3,12 @@
   "url": "/about/",
   "tags": [],
   "description": "I'm a dad of 2 that lives in Columbus, Ohio. I'm an avid cyclist, hobby photographer and nature lover.",
-  "cover": "/content/images/about/IMG_1119.jpeg",
+  "cover": "/content/images/about/IMG_1119.webp",
   "comments": false,
   "source": "https://thatalexguy.dev/about"
 }
 
-![Me](/content/images/about/IMG_1119.jpeg) _Cycling through Baotou, China_
+![Me](/content/images/about/IMG_1119.webp) _Cycling through Baotou, China_
 
 # Hey, I'm Alex!
 

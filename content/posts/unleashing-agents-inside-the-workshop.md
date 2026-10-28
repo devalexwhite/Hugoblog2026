@@ -7,7 +7,7 @@
     "AI"
   ],
   "description": "I recently learned of Ubuntu Workshops. In short, Workshops allow you to create an isolated development environment to safely work with AI agents. You get a configured (via YAML) sandbox where you can safely run an agent without the need fo",
-  "cover": "/content/images/unleashing-agents-inside-the-workshop/workshops_snap.png",
+  "cover": "/content/images/unleashing-agents-inside-the-workshop/workshops_snap.webp",
   "comments": true,
   "source": "https://thatalexguy.dev/unleashing-agents-inside-the-workshop"
 }
@@ -26,7 +26,7 @@ First, install the Workshops Snap from the Ubuntu App Store. I also had to insta
 sudo snap install --channel=6/stable lxd
 ```
 
-![Workshops in the App Center](/content/images/unleashing-agents-inside-the-workshop/workshops_snap.png)
+![Workshops in the App Center](/content/images/unleashing-agents-inside-the-workshop/workshops_snap.webp)
 
 To setup the workshop, create an empty directory and run the following commands:
 
@@ -101,7 +101,7 @@ workshop run --env CODEX_MODEL=gpt-6.1-sol -- \
 codex-auto "Follow the instructions in ./prompts/rust-developer.md"
 ```
 
-![Codex agent running inside the workshop](/content/images/unleashing-agents-inside-the-workshop/workshop_running.png)
+![Codex agent running inside the workshop](/content/images/unleashing-agents-inside-the-workshop/workshop_running.webp)
 
 The agent will now run completely autonomously with no need to press "enter" on permission checks. Our host system remains protected as the agent is sandboxed away from our filesystem and devices.
 
@@ -111,7 +111,7 @@ In fact, you'll notice in the prompt we specified that the agent should not try 
 
 Here's what I got as a result:
 
-![The HEIC converter application window](/content/images/unleashing-agents-inside-the-workshop/workshop_finished.png)
+![The HEIC converter application window](/content/images/unleashing-agents-inside-the-workshop/workshop_finished.webp)
 
 The UI isn't great, but it works and successfully converted some photos from my iPhone!
 

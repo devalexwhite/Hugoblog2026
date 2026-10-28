@@ -22,11 +22,11 @@ Like any good engineer, I decided to build my own solution! Mostly as a way to k
 
 I'm calling my project JobCaddy. As of right now it focuses on helping job seekers track where they've applied to, the various stages they've gone through and the people behind each stage.
 
-![JobCaddy Home Page](/content/images/building-a-tool-for-job-searchers/screenshot-home-page.png) _Test account with fake data_
+![JobCaddy Home Page](/content/images/building-a-tool-for-job-searchers/screenshot-home-page.webp) _Test account with fake data_
 
 My eventual goal is to add suggestions on actions you should take. One thing I learned as a hiring manager is that many people forget to focus on the human aspect of the process. The conversations and people you meet are extremely important. As you progress through stages at a company, you should be sending thank personalized thank you letters, referencing previous conversations and able to recall the name of each person you talked to. JobCaddy will act as a mentor of sorts, suggesting follow-ups and helping you prep for next stages based on your notes and people you talked to.
 
-![Screenshot of JobCaddy application timeline](/content/images/building-a-tool-for-job-searchers/Screenshot-2026-10-19-at-12-07-00-Dashboard-Jobcaddy.png) _Test account with fake data_
+![Screenshot of JobCaddy application timeline](/content/images/building-a-tool-for-job-searchers/Screenshot-2026-10-19-at-12-07-00-Dashboard-Jobcaddy.webp) _Test account with fake data_
 
 ## How I'm Building It
 
@@ -34,6 +34,6 @@ Like I said, this is in part a project for me to stay on-top of AI developments 
 
 My workflow revolves around the Codex CLI in [Herdr](https://herdr.dev/), dictation via [Myse](/trying-myna-on-ubuntu-2610) on Ubuntu and tooling management via [Mise](https://mise.jdx.dev/). I leverage Sublime Text for manual coding.
 
-![Screenshot of Herdr CLI with Codex](/content/images/building-a-tool-for-job-searchers/sublime.png)
+![Screenshot of Herdr CLI with Codex](/content/images/building-a-tool-for-job-searchers/sublime.webp)
 
 It's been a pretty fun process, allowing me to quickly iterate based on pain points I run into while using JobCaddy for my own job search!

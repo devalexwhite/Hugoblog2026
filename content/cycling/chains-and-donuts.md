@@ -6,17 +6,17 @@
     "Cycling"
   ],
   "description": "The wife and kids get back this Friday morning, but in the meantime I’ve been using my free time to get as many miles in as possible on the new bike. There’s a group that rides at 5am that I typically meetup with, averaging around 20-30 mil",
-  "cover": "/content/images/chains-and-donuts/IMG_1377.jpeg",
+  "cover": "/content/images/chains-and-donuts/IMG_1377.webp",
   "comments": true,
   "source": "https://thatalexguy.dev/chains-and-donuts"
 }
 
 The wife and kids get back this Friday morning, but in the meantime I’ve been using my free time to get as many miles in as possible on the new bike. There’s a group that rides at 5am that I typically meetup with, averaging around 20-30 miles at 21mph.
 
-![IMG\_1377](/content/images/chains-and-donuts/IMG_1377.jpeg)
+![IMG\_1377](/content/images/chains-and-donuts/IMG_1377.webp)
 
 This morning I added in a stop to the local donut shop for some mid-ride donuts and coffee. Not many things in life are better than enjoying a donut and coffee while watching the sun start to peak up on a crisp morning.
 
-![IMG\_1380](/content/images/chains-and-donuts/IMG_1380.jpeg)
+![IMG\_1380](/content/images/chains-and-donuts/IMG_1380.webp)
 
 Historically I’ve never been much into fitness, but these days I almost always fill whatever free time I have with cycling, hiking or swimming. I guess it’s just something that comes with hitting the mid-30s!

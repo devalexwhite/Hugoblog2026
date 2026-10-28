@@ -28,7 +28,7 @@ hugo new content games/a-new-game.md
 hugo new content posts/a-new-note.md
 ```
 
-Remove `draft: true` when ready. Posts without an explicit `url` use their section path. Migrated posts explicitly keep their original root-level paths. Optional front matter: `description`, `cover` (a local image path), `tags`, and `comments: true` to enable Pure Comments. Add images under `static/content/images/`; the theme generates card thumbnails and resizes large article images during the Hugo build while preserving originals.
+Remove `draft: true` when ready. Posts without an explicit `url` use their section path. Migrated posts explicitly keep their original root-level paths. Optional front matter: `description`, `cover` (a local image path), `tags`, and `comments: true` to enable Pure Comments. Add optimized WebP images under `static/content/images/`; the theme generates card thumbnails and resizes large article images during the Hugo build. Local JPEG and PNG assets have been converted to WebP at quality 82 with dimensions preserved and originals removed.
 
 The homepage includes all four post sections. Each section also has its own archive and RSS feed. Search runs locally in the browser against Hugo’s generated `index.json`. Color mode follows the system until the reader changes it, then saves their preference locally. The site remains readable without JavaScript.
 
@@ -38,7 +38,7 @@ Migrated **25 publicly available posts, the About page, and 53 media files** fro
 
 - `content/`: editable Markdown, with JSON or YAML front matter.
 - `themes/quiet-ink/`: custom layouts, CSS, browser scripts, and landscape illustration.
-- `migration/manifest.json`: original URL and asset inventory.
+- `migration/manifest.json`: original URL and asset inventory, with `optimizedAssets` mapping original asset URLs to their WebP replacements.
 - `migration/source/`: original public HTML snapshots for comparison.
 - `scripts/migrate.cjs`: original import script; needs Node.js plus `cheerio` and `turndown`. Re-running overwrites migrated pages, including subsequent editorial changes.
 - `scripts/audit.cjs`: dependency-free build audit of original URLs, assets, internal references, and search coverage. Run after a production build, rather than against Hugo server’s live-reload output.

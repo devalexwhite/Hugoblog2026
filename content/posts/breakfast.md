@@ -6,11 +6,11 @@
     "Life"
   ],
   "description": "Nothing beats breakfast outside on a crisp, 54F morning with a warm cup of coffee!",
-  "cover": "/content/images/breakfast/69.jpg",
+  "cover": "/content/images/breakfast/69.webp",
   "comments": true,
   "source": "https://thatalexguy.dev/breakfast"
 }
 
 Nothing beats breakfast outside on a crisp, 54F morning with a warm cup of coffee!
 
-![69](/content/images/breakfast/69.jpg)
+![69](/content/images/breakfast/69.webp)

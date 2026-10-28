@@ -6,7 +6,7 @@
     "China"
   ],
   "description": "One day when we were in China we had to spend a few hours in an appliance store with the kids. Asking my 4-year old to sit still and learn the ins and outs of ductless AC units obviously wasn't going to happen. He quickly took to running ar",
-  "cover": "/content/images/why-so-serious/cal_sleep.png",
+  "cover": "/content/images/why-so-serious/cal_sleep.webp",
   "comments": true,
   "source": "https://thatalexguy.dev/why-so-serious"
 }
@@ -15,7 +15,7 @@ One day when we were in China we had to spend a few hours in an appliance store 
 
 As an American parent, it stressed me the hell out. Not because I thought he would get hurt or cause damage, there was very little chance of that. Rather, it was my expectation of being yelled at. Having some elderly shopper give a lecture, or a sales associate call a manager to deal with us. In the USA, a kid being allowed to run around and have fun in a store just isn't something that's allowed to happen. It's too disruptive, too "dangerous", too filled with "what ifs".
 
-![Sleeping](/content/images/why-so-serious/cal_sleep.png) _Later that day he fell asleep at a bike shop, having spent all his energy in the appliance store_
+![Sleeping](/content/images/why-so-serious/cal_sleep.webp) _Later that day he fell asleep at a bike shop, having spent all his energy in the appliance store_
 
 My wife told me to chill out and said "nobody here gives a shit". And sure enough, my son was completely ignored. At one point, another kid joined in while his parents reviewed refrigerators. The only time employees got involved was when my son got so bored he started throwing a fit. Suddenly 4 associates descended on him, each offering various sweets and snacks to cheer him up.
 
