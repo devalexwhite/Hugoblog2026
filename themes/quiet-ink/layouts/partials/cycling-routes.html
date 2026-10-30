@@ -1,0 +1,23 @@
+{{ $routes := slice }}
+{{ range os.ReadDir "static/routes" }}
+  {{ if and (not .IsDir) (eq (lower (path.Ext .Name)) ".gpx") }}
+    {{ $settings := index hugo.Data.cycling_routes .Name | default dict }}
+    {{ $routes = $routes | append (dict "file" .Name "url" (printf "routes/%s" .Name | relURL) "title" ($settings.title | default (strings.TrimSuffix (path.Ext .Name) .Name | humanize)) "country" ($settings.country | default "Not specified") "favorite" ($settings.favorite | default false)) }}
+  {{ end }}
+{{ end }}
+<section class="route-section" aria-labelledby="routes-title" data-routes>
+  <div class="section-heading"><div><h2 id="routes-title">Routes</h2></div><button class="text-link route-toggle" hidden aria-expanded="false" aria-controls="route-grid">View all routes</button></div>
+  <p class="route-intro">Cycling routes I've ridden.</p>
+  {{ if $routes }}
+  <div class="route-grid" id="route-grid">
+    {{ range $routes }}
+    <article class="route-card" data-url="{{ .url }}" data-favorite="{{ .favorite }}">
+      <div class="route-map" role="img" aria-label="Map of {{ .title }}"><span>Loading route…</span></div>
+      <div class="route-details"><p class="route-country">{{ .country }}{{ if .favorite }} <span aria-label="Favorite">· ★</span>{{ end }}</p><h3>{{ .title }}</h3><dl><div><dt>Distance</dt><dd data-distance>—</dd></div><div><dt>Avg. speed</dt><dd data-speed>—</dd></div></dl><p class="route-status" aria-live="polite"></p><a class="text-link" href="{{ .url }}" download>Download GPX ↗</a></div>
+    </article>
+    {{ end }}
+  </div>
+  <noscript><p>Enable JavaScript to see route maps and calculated ride statistics. GPX downloads are available above.</p></noscript>
+  <script type="module" src="{{ "js/routes.js" | relURL }}"></script>
+  {{ else }}<p class="routes-empty">The route collection is on its way. Ride stories are just below.</p>{{ end }}
+</section>

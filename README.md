@@ -48,3 +48,27 @@ Migrated **25 publicly available posts, the About page, and 53 media files** fro
 Pure Comments keeps its existing embed endpoint and post slug identifiers; historical comment data remains on that external service. Actual comment loading and submission should be checked on the production domain, since the service may restrict local origins. No private drafts or server-side comment database were accessible through the public website.
 
 One pre-existing broken reference in “From Omarchy to Pop_OS!” points to `https://thatalexguy.dev/i-dont-know-what-to-do-on-a-computer-anymore` (the original server returns 404). It is preserved as an absolute link; no replacement article has been invented.
+
+## Cycling routes
+
+Drop `.gpx` files directly into `static/routes/` and rebuild Hugo (or restart `hugo server` after adding files). Cards appear automatically above the cycling journal. No extra build tools or API keys are needed. Files are publicly downloadable, so trim private start/end locations before adding them.
+
+Edit `data/cycling_routes.json` to mark favorites and supply optional metadata, using exact filenames:
+
+```json
+{
+  "sunday-loop.gpx": {
+    "title": "Sunday on the towpath",
+    "country": "United States",
+    "favorite": true
+  },
+  "baotou.gpx": {
+    "country": "China",
+    "favorite": true
+  }
+}
+```
+
+The page previews up to three favorites, alphabetically by filename; **View all routes** reveals the full collection. If none are favorites, it previews the first three routes. Titles default to filenames. Country defaults to “Not specified”: GPX has no standard country field, and no coordinates are sent to a geocoding service. For cross-border rides, list both countries.
+
+Distance is calculated in kilometers from GPX track points (or route points if no tracks exist), without joining separate segments. Average speed uses recorded segment elapsed time, including stops and excluding gaps between segments. Missing or non-increasing timestamps make speed unavailable. Invalid coordinates split the track rather than bridging the gap. Maps and statistics require JavaScript; GPX downloads work without it. Maps use OpenStreetMap tiles, loaded only as cards enter the viewport, with visible attribution and normal browser caching; see the [tile usage policy](https://operations.osmfoundation.org/policies/tiles/). A failed map tile request still leaves the route outline visible. No sample rides are published as your own.
