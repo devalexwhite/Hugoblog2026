@@ -1,0 +1,9 @@
+{{ define "main" }}
+<header class="page-heading"><h1>{{ .Title }}</h1><div class="section-description">{{ .Content }}</div></header>
+<link rel="stylesheet" href="{{ "experiments/treat-for-treat/style.css" | relURL }}">
+<section class="experiment-grid" aria-label="Experiments">
+{{ range .RegularPages.ByDate.Reverse }}
+<a class="experiment-card" href="{{ .RelPermalink }}"><span class="experiment-icon" aria-hidden="true">{{ .Params.icon | default "✧" }}</span><span class="eyebrow">{{ .Params.status | default "Explore" }}</span><h2>{{ .Title }}</h2><p>{{ .Description }}</p><span class="text-link">Try the experiment ↗</span></a>
+{{ else }}<p>Something curious is on its way.</p>{{ end }}
+</section>
+{{ end }}

@@ -33,8 +33,8 @@
 <a class="skip" href="#main">Skip to content</a>
 <div class="site-wrap">
 <header class="site-header">
-<a class="brand" href="{{ site.Home.RelPermalink }}"><span class="seal" aria-hidden="true">小<br>艾</span><span>Alex White<small>A personal journal</small></span></a>
-<nav aria-label="Main navigation">{{ $current := . }}{{ range slice (dict "name" "Journal" "url" "/" "section" "posts") (dict "name" "Cycling" "url" "/cycling/" "section" "cycling") (dict "name" "Books" "url" "/books/" "section" "books") (dict "name" "Games" "url" "/games/" "section" "games") (dict "name" "About" "url" "/about/" "section" "about") }}<a href="{{ .url | relURL }}" {{ if or (eq $current.RelPermalink .url) (and (eq $current.Section .section) (ne .section "posts")) }}aria-current="page"{{ end }}>{{ .name }}</a>{{ end }}</nav>
+<a class="brand" href="{{ site.Home.RelPermalink }}"><span class="seal" aria-hidden="true">小<br>艾</span><span>Alex White<small>Dad & Cyclist</small></span></a>
+<nav aria-label="Main navigation">{{ $current := . }}{{ range slice (dict "name" "Journal" "url" "/" "section" "posts") (dict "name" "Cycling" "url" "/cycling/" "section" "cycling") (dict "name" "Books" "url" "/books/" "section" "books") (dict "name" "Games" "url" "/games/" "section" "games") (dict "name" "Experiments" "url" "/experiments/" "section" "experiments") (dict "name" "About" "url" "/about/" "section" "about") }}<a href="{{ .url | relURL }}" {{ if or (eq $current.RelPermalink .url) (and (eq $current.Section .section) (ne .section "posts")) }}aria-current="page"{{ end }}>{{ .name }}</a>{{ end }}</nav>
 <div class="header-tools"><a href="{{ "search/" | relURL }}" aria-label="Search" class="icon-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a><button id="theme-toggle" aria-label="Switch color theme" title="Switch color theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/></svg></button></div>
 </header>
 <main id="main">{{ block "main" . }}{{ end }}</main>

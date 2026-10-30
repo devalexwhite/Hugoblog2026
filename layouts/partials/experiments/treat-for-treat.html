@@ -1,0 +1,15 @@
+{{ $id := printf "treat-%d" .Ordinal }}
+<link rel="stylesheet" href="{{ "experiments/treat-for-treat/style.css" | relURL }}">
+<section class="treat-box" data-treat-for-treat>
+  <svg class="treat-spider" viewBox="0 0 60 100" aria-hidden="true"><path d="M30 0v53M24 60 12 50 6 57m18 9L9 63 3 72m21-1L12 78 9 88m27-28 12-10 6 7m-18 9 15-3 6 9m-21-1 12 7 3 10" fill="none" stroke="currentColor" stroke-width="1.5"/><ellipse cx="30" cy="66" rx="9" ry="12" fill="currentColor"/><circle cx="27" cy="62" r="1.5" fill="var(--paper)"/><circle cx="33" cy="62" r="1.5" fill="var(--paper)"/></svg>
+  <h2>Treat For Treat</h2>
+  <p>Leave a treat (like a link to your website), and get a treat left by someone else!</p>
+  <form>
+    <label for="{{ $id }}-url">Your treat:</label>
+    <div class="treat-fields"><input id="{{ $id }}-url" name="url" type="url" placeholder="https://something-wonderful.com" required maxlength="2048" aria-describedby="{{ $id }}-note"><button type="submit" disabled>Submit ↗</button></div>
+    <p class="treat-note" id="{{ $id }}-note">Your link will be shared with other readers, please keep it clean!</p>
+  </form>
+  <div class="treat-result" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p>Enable JavaScript to exchange a treat.</p></noscript>
+</section>
+<script src="{{ "experiments/treat-for-treat/app.js" | relURL }}" defer></script>

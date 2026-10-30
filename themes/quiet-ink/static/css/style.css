@@ -66,3 +66,6 @@ html[data-theme=dark]{--home-art-filter:brightness(.82) saturate(.75)}
 .route-status{font-size:12px;color:var(--muted)}.route-status:empty{display:none}
 @media(max-width:850px){.route-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.route-grid{grid-template-columns:1fr}.route-section .section-heading{align-items:start;flex-direction:column;gap:12px}}
+
+/* Keep the expanded navigation comfortable on small screens. */
+@media(max-width:800px){.site-header{flex-wrap:wrap}.site-header nav{order:3;width:100%;flex-wrap:wrap;justify-content:space-between;row-gap:20px}}
