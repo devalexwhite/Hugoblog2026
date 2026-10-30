@@ -1,5 +1,5 @@
 ---
 title: Books
-description: Stories worth sitting with. Reviews and notes from the reading pile.
+description: Reviews of books I've read.
 ---
-Stories worth sitting with. Reviews and notes from the reading pile.
+Reviews of books I've read.

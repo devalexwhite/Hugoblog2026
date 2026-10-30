@@ -1,5 +1,5 @@
 ---
 title: Games
-description: A little play. Other worlds, old favourites, and new discoveries.
+description: Reviews of games I've played.
 ---
-A little play. Other worlds, old favourites, and new discoveries.
+Reviews of games I've played.

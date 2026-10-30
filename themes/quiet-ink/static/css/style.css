@@ -37,3 +37,15 @@
 #comments .replying-to{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:10px 12px;background:var(--wash);border-left:2px solid var(--jade)}
 #comments .hidden,#comments .hp-field{display:none!important}
 @media(max-width:640px){#comments .comment-children{margin-left:8px;padding-left:12px}}
+
+.home-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* Transparent watercolor vignette follows the homepage grid and color mode. */
+.home-image{width:100%;min-width:0;align-self:center}
+.home-image img{display:block;width:100%;height:auto;object-fit:contain;filter:var(--home-art-filter,none)}
+html[data-theme=dark]{--home-art-filter:brightness(.82) saturate(.75)}
+@media(prefers-color-scheme:dark){html:not([data-theme]){--home-art-filter:brightness(.82) saturate(.75)}}
+@media(max-width:640px){.home-image{width:90%;max-width:340px}}

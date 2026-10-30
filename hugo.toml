@@ -10,6 +10,8 @@ buildFuture = true
 [params]
   description = 'Dad and cyclist in Ohio. Notes on life, technology, and the things that make us slow down.'
   author = 'Alex White'
+  socialImage = '/content/images/social-banner.png'
+  socialImageAlt = 'Alex White — a personal journal. Tech and cycling from a dad in Ohio. Two road bikes beside a green guardrail and sandy dunes, illustrated in ink and watercolor.'
   commentsURL = 'https://comments.thatalexguy.dev/public/embed.js'
 [taxonomies]
   tag = 'tags'

@@ -1,5 +1,5 @@
 ---
 title: Cycling
-description: Open roads, early starts, and a clearer mind. Notes from life on two wheels.
+description: From America to China, a journal of my adventures.
 ---
-Open roads, early starts, and a clearer mind. Notes from life on two wheels.
+From America to China, a journal of my adventures.

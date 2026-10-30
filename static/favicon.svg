@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="7" fill="#aa4b3f"/>
+  <g fill="none" stroke="#f6f4ed" stroke-width="3.8" stroke-linecap="square" stroke-linejoin="round">
+    <!-- 小艾: the two-character seal used in the site header. -->
+    <path d="M32 9v20l-5-2M22 15l-6 10M42 15l6 10M16 38h32M25 34v9M39 34v9M23 45c4 6 11 10 23 12M41 45c-4 6-12 10-23 12"/>
+  </g>
+</svg>

@@ -18,6 +18,4 @@ Wanna chat? Send me an [email](mailto:hi@thatalexguy.dev)!
 
 ### About this blog
 
-This blog is powered by [Hugo](https://gohugo.io) and a custom theme, Quiet Ink. [Pure Comments](https://purecomments.org) provides the conversations below each post.
-
-Previously, this blog ran on the awesome [Pure Blog](https://pureblog.org), created by Kev Quirk.
+This blog is powered by [Hugo](https://gohugo.io). [Pure Comments](https://purecomments.org) provides the conversations below each post.
